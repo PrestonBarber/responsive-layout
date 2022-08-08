@@ -53,6 +53,14 @@ a {
 .foot {
     padding-top: 4rem;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+#top {
+    margin-top: 20px;
+}
 @media (min-width: 768px) {
     .main-nav,
     .nav {
@@ -73,6 +81,9 @@ a {
     }
     .col {
         flex: 1 50%;
+    }
+    #top {
+        display: none;
     }
 }
 @media (min-width: 1024px) {
